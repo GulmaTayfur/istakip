@@ -1,0 +1,85 @@
+{
+  "jobs": [
+    {
+      "id": "5",
+      "position": "Product Manager",
+      "company": "Amazon",
+      "location": "Seattle",
+      "status": "Mülakat",
+      "type": "Yarı Zamanlı",
+      "date": "1/12/2023"
+    },
+    {
+      "id": "bbe7269d-a04f-40a4-a399-11669a0fdd91",
+      "position": "Backend Developer",
+      "company": "Facebook",
+      "location": "California",
+      "status": "Mülakat",
+      "type": "Uzaktan",
+      "date": "10.03.2024"
+    },
+    {
+      "id": "c4209d67-6c32-4179-a806-4de2773fe19d",
+      "position": "IK",
+      "company": "Trendyol",
+      "location": "İstanbul",
+      "status": "Devam Ediyor",
+      "type": "Tam Zamanlı",
+      "date": "10.03.2024"
+    },
+    {
+      "id": "e55c7841-c51b-43df-950a-1bd408fe35ce",
+      "position": "Frontend Developer",
+      "company": "Udemig",
+      "location": "İstanbul",
+      "status": "Devam Ediyor",
+      "type": "Uzaktan",
+      "date": "11.03.2024"
+    },
+    {
+      "id": "e8602d40-14ca-4a35-b820-8a02fbe498a7",
+      "position": "Frontend Developer",
+      "company": "Instagram",
+      "location": "Bursa",
+      "status": "Devam Ediyor",
+      "type": "Uzaktan",
+      "date": "11.03.2024"
+    },
+    {
+      "id": "037312d6-cfe1-4261-8b42-a34c9a2b2ee3",
+      "position": "Backend Developer",
+      "company": "Nasa",
+      "location": "California",
+      "status": "Devam Ediyor",
+      "type": "Uzaktan",
+      "date": "11.03.2024"
+    },
+    {
+      "id": "00790d93-65aa-49c0-b97b-d89712ffaaf0",
+      "position": "Frontend Developer",
+      "company": "Getir",
+      "location": "İstanbul",
+      "status": "Devam Ediyor",
+      "type": "Yarı Zamanlı",
+      "date": "11.03.2024"
+    },
+    {
+      "id": "73152e69-1d2d-4c8d-917c-7de3c84c0435",
+      "position": "Product Manager",
+      "company": "Amazon",
+      "location": "Seattle",
+      "status": "Reddedildi",
+      "type": "Uzaktan",
+      "date": "11.03.2024"
+    },
+    {
+      "id": "5c6c24db-61ea-496a-a333-03546e3c12d9",
+      "position": "Frontend Developer",
+      "company": "Udemig",
+      "location": "İstanbul",
+      "status": "Devam Ediyor",
+      "type": "Uzaktan",
+      "date": "11.03.2024"
+    }
+  ]
+}

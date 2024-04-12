@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import "loader";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins";
+  background: #242424;
+  color: white;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+
+  nav {
+    display: flex;
+    gap: 20px;
+
+    a {
+      text-decoration: none;
+      color: rgb(226, 68, 160);
+      font-size: 19px;
+    }
+
+    .active {
+      text-shadow: 0 0 20px pink;
+    }
+  }
+}
+
+.list-page {
+  min-height: 100vh;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  margin-top: 50px;
+
+  p {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+
+    span {
+      color: crimson;
+      margin-left: 5px;
+    }
+  }
+}
+
+.job-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 50px;
+  padding: 20px;
+}
+
+.card {
+  margin-bottom: 40px;
+  background: rgb(106, 106, 106);
+  border-radius: 10px;
+  padding: 20px;
+
+  .head {
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 40px;
+      margin-bottom: 20px;
+
+      .letter {
+        background: purple;
+        width: 60px;
+        height: 60px;
+        display: grid;
+        place-items: center;
+        text-transform: uppercase;
+        border-radius: 10px;
+        font-size: 30px;
+        text-shadow: 0 0 20px white;
+        font-family: "poppins";
+      }
+
+      .info {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+
+    .field {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .status {
+      display: flex;
+      max-width: 130px;
+      border-radius: 10px;
+
+      p {
+        padding: 6px;
+        max-width: 130px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+// ekleme sayfası
+
+.add-page {
+  min-height: 90vh;
+  display: grid;
+  place-items: center;
+}
+
+.add-sec {
+  width: 70vw;
+  max-width: 700px;
+  box-shadow: 0 0 55px 0 rgb(226, 68, 160);
+  padding: 25px;
+
+  form {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, min-maz(250px, 1fr));
+    gap: 20px;
+
+    div {
+      display: grid;
+    }
+    div input,
+    div select {
+      padding: 10px 15px;
+      margin-top: 5px;
+      border-radius: 5px;
+      font-family: "poppins";
+    }
+    div:last-child {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.filter-sec {
+  @extend .add-sec;
+  margin: 30px auto 80px;
+}
